@@ -1,17 +1,27 @@
 # The directory Mix will write compiled artifacts to.
 /chapter_17_otp_servers/sequence/_build/
+/chapter_18_otp_supervisors/sequence/_build/
+/chapter_19_a_more_complex_example/duper/_build/
 
 # If you run "mix test --cover", coverage assets end up here.
 /chapter_17_otp_servers/sequence/cover/
+/chapter_18_otp_supervisors/sequence/cover/
+/chapter_19_a_more_complex_example/duper/cover/
 
 # The directory Mix downloads your dependencies sources to.
 /chapter_17_otp_servers/sequence/deps/
+/chapter_18_otp_supervisors/sequence/deps/
+/chapter_19_a_more_complex_example/duper/deps/
 
 # Where 3rd-party dependencies like ExDoc output generated docs.
 /chapter_17_otp_servers/sequence/doc/
+/chapter_18_otp_supervisors/sequence/doc/
+/chapter_19_a_more_complex_example/duper/doc/
 
 # Ignore .fetch files in case you like to edit your project deps locally.
 /chapter_17_otp_servers/sequence/.fetch
+/chapter_17_otp_servers/sequence/.fetch
+/chapter_19_a_more_complex_example/duper/.fetch
 
 # If the VM crashes, it generates a dump, let's ignore it too.
 erl_crash.dump
@@ -21,6 +31,9 @@ erl_crash.dump
 
 # Ignore package tarball (built via "mix hex.build").
 sequence-*.tar
+duper-*.tar
 
 *.beam
 /chapter_17_otp_servers/sequence/config/*.secret.exs
+/chapter_18_otp_supervisors/config/*.secret.exs
+/chapter_19_a_more_complex_example/duper/config/*.secret.exs
